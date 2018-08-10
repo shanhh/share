@@ -1,7 +1,7 @@
 ```javascript
-// promise 的then 写法
-function getData (type) {
-	return new Promise ((resolve, reject) => {
+  // promise 的then 写法
+   function getData (type) {
+     return new Promise ((resolve, reject) => {
         setTimeout(() => {
           if (type == 1) {
             resolve('成功了');
